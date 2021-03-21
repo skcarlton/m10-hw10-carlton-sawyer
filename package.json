@@ -1,0 +1,24 @@
+{
+  "name": "m10-hw10-carlton-sawyer",
+  "version": "1.0.0",
+  "description": "Homework 10",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skcarlton/m10-hw10-carlton-sawyer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skcarlton/m10-hw10-carlton-sawyer/issues"
+  },
+  "homepage": "https://github.com/skcarlton/m10-hw10-carlton-sawyer#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
