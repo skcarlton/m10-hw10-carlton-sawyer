@@ -1,7 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+  display:block;
+}
+
+body {
+	background-color: #b3dfec;
+	font-family: sans-serif;
+	color: #557aae;
+  min-height: 100vh;
+  text-align: center;
+}
+
+h1, h2 {
+	color: #00255c;
+	margin: 3%;
+	padding: 2% 0;
+}
+
+p {
+	padding: 1%;
+	margin: 2% 3%;
+}
 
 .hide {
   opacity: 0;
 }
+
 .show {
   opacity: 1;
   transition: opacity 1s;
